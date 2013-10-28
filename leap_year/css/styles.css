@@ -1,0 +1,15 @@
+h4 {
+  font-family: Arial Rounded MT Bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.valign {
+  margin-top: 20%;
+}
+
+.btn {
+  vertical-align: top;
+}

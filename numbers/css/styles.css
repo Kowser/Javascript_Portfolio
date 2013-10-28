@@ -1,0 +1,17 @@
+#container-box {
+  border-radius: 15px;
+  border: 2px solid #8b95a0;
+  width: 500px;
+}
+
+.center {
+  text-align: center;
+}
+
+.valign {
+  margin-top: 20%;
+}
+
+.btn {
+  vertical-align: top;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- COMMON HEAD -->
+    <meta name="description" content="The home page of Michal Kaszubowski, a web developer living in Portland, Oregon.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../shared/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../shared/css/bootstrap-responsive.css" rel="stylesheet">
+    <script type="text/javascript" src="../shared/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../shared/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- COMMON HEAD -->
+  <title>Javascript | Triangle</title>
+  </head>
+  <body class="container center valign">
+    <form id="triangle">
+      <div id="google-title">
+        <img src="../shared/img/t0l.gif" border="0"><img src="../shared/img/r1.gif" border="0">
+        <img src="../shared/img/i2.gif" border="0"><img src="../shared/img/a3.gif" border="0">
+        <img src="../shared/img/n0.gif" border="0"><img src="../shared/img/g1.gif" border="0">
+        <img src="../shared/img/l2.gif" border="0"><img src="../shared/img/e3.gif" border="0">
+        <img src="../shared/img/_.gif" border="0"><img src="../shared/img/i1l.gif" border="0">
+        <img src="../shared/img/n2.gif" border="0"><img src="../shared/img/s3.gif" border="0">
+        <img src="../shared/img/p0.gif" border="0"><img src="../shared/img/e1.gif" border="0">
+        <img src="../shared/img/c2.gif" border="0"><img src="../shared/img/t3.gif" border="0">
+        <img src="../shared/img/o0.gif" border="0"><img src="../shared/img/r1.gif" border="0">
+      </div>
+      <div class="row">
+        <div class="span2 offset3">
+          <input id="side1" type="text" placeholder="Side 1"> 
+          <label for"side1">Side 1</label>
+        </div>
+        <div class="span2">
+          <input id="side2" type="text" placeholder="Side 2"> 
+          <label for"side2">Side 2</label>
+        </div>
+        <div class="span2">
+          <input id="side3" type="text" placeholder="Side 3"> 
+          <label for"side3">Side 3</label>
+        </div>
+      </div>
+      <br>
+      <div>
+        <button type="submit" class="btn btn-success">Triangulate!</button>
+        <button type="reset" value="reset" class="btn btn-info" id="reset">Clear</button>
+      </div>
+      <div id="triangle-results"></div>
+    </form>
+  </body>
+</html>

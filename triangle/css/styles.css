@@ -1,0 +1,15 @@
+h4 {
+  font-family: Arial Rounded MT Bold;
+}
+
+input {
+	width: 125px;
+}
+
+.center {
+  text-align: center;
+}
+
+.valign {
+  margin-top: 20%;
+}
