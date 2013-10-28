@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../shared/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../shared/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../shared/js/jquery-1.10.2.js"></script>
+    <script src="../shared/js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Hang 'em</title>
+  </head>
+  <body>
+    <div class="container text-center">
+
+      <h1>Hang 'em!</h1>
+      <hr>
+
+      <div id="hangman" class="zero" ></div>
+      <div id="display-word"></div>
+      <div id="wrong-letters"></div>
+
+      <form id="guess-form" class="form-search">
+        <div class="input-append">
+          <input id="letter" type="text" class="span2 search-query" placeholder"Letter">
+          <button class="btn btn-info btn-guess" type="submit">Guess</button>
+        </div>
+      </form>
+
+      <div id="error"></div>
+
+      <div class="modal fade" id="game-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Welcome to Hang 'em</h3>
+            </div>
+            <div class="modal-body"><img src="img/hangman.png"></img>
+            </div>
+            <div class="modal-footer">
+              <p class="text-center">Brought to you by <a href="http://googledrive.com/host/0B--OefA61JUBeXI2dVRxM1d0Tzg/" target="_blank">Michal Kaszubowski</a></p>
+              <button type="button" id="start" class="btn btn-danger">Start!</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+    </div>  
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.square {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: 5px solid gray;
+  font-size: 72px;
+}
+body {
+  background-image: url(../img/bkg.jpg);
+  background-size: cover;
+  padding:5%;
+}
+
+table {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.white-padding {
+  background-color: white;
+  padding: 20px;
+  border-radius:20px;
+  width: 450px;
+  height: 520px;
+  margin: 0 auto;
+  opacity: .85;
+}
