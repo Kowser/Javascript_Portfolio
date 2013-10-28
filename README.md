@@ -5,16 +5,16 @@ Javascript Portfolio
 
 These projects were designed to teach a TDD approach, followed by breaking down each problem into manageable code pieces and resolving them one by one until a fully functional piece of software glistened.
 
-|Object Oriented Javascript|
+Object-Oriented Javascript
 |--------------|-|
 |hangman       |The classic game that uses an API to conjure up impossible words! You only get tries...|
 |tic-tac-toe   |A 2 player version of this old favorite.|
 
-|API Javascript|
+API Javascript
 |--------------|-|
 |Spotify       |Using the spotify API to search albums, create informative results and even play a sample.|
 
-|Basic Javascript|
+Basic Javascript
 |--------------|-|
 |factorial     |A quick tool to factor any number up to 170.|
 |fibonacci     |Provides the (n)th value in the fibonacci sequence.|
