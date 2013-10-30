@@ -1,26 +1,26 @@
 Javascript Portfolio
 ====================
-######The following is my work in Javascript/jQuery and HTML/CSS formats.
-######Test Driven Development has been implemented in each program.
+A selection of Javascript/jQuery and HTML/CSS works developed during my time at Epicodus. There are for more projects than we were able to fully finish, starting a new project almost daily. Pair-Programming & Test Driven Development are the foundational basis of each project.
 
-These projects were designed to teach a TDD approach, followed by breaking down each problem into manageable code pieces and resolving them one by one until a fully functional piece of software glistened.
+All projects collectively share the same bootstrap framework files.
 
 ######Object-Oriented Javascript
 
-|projects      |Description|
+|project name  |Description|
 |--------------|-----------|
-|hangman       |The classic game that uses an API to conjure up impossible words! You only get tries...|
-|tic-tac-toe   |A 2 player version of this old favorite.|
+|hangman       |A classic with an API to conjure up impossible words! You only get 3 tries...|
+|tic-tac-toe   |An old favorite 2 player version.|
 
 ######API Javascript
 
-|projects      |Description|
+|project name  |Description|
 |--------------|-----------|
-|Spotify       |Using the spotify API to search albums, create informative results and even play a sample.|
+|Spotify       |WIP* Using the spotify API to search albums, create informative results and even play a sample.|
+|LegiSearch    |WIP* Using the Google Maps & Sunlight foundation to obtain legislator and hearing information|
 
 ######Basic Javascript
 
-|projects      |Description|
+|project name  |Description|
 |--------------|-----------|
 |factorial     |A quick tool to factor any number up to 170.|
 |fibonacci     |Provides the (n)th value in the fibonacci sequence.|
@@ -29,7 +29,3 @@ These projects were designed to teach a TDD approach, followed by breaking down 
 |pig latin     |anslatesTray asesphray intoay igpay atinlay (Translates phrases into pig latin).|
 |title case    |Convert sentences in any case into proper title case, ignoring standard words ('a', 'and', 'to', etc..)|
 |triangle      |Identifies a triange as scalene, isosceles or equilateral given 3 sides. Will also recognize an impossible triangle.|
-
-Javascript Portfolio LIVE!
-====================
-[View my javascript in action here:](https://drive.google.com/folderview?id=0B--OefA61JUBRlZvQkNMems1YVU)

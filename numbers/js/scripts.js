@@ -17,7 +17,8 @@ var digits = {
   16 : "sixteen",
   17 : "seventeen",
   18 : "eighteen",
-  19 : "nineteen"};
+  19 : "nineteen"
+};
 
 var tens = {
   1 : "ten",
@@ -28,7 +29,8 @@ var tens = {
   6 : "sixty",
   7 : "seventy",
   8 : "eighty",
-  9 : "ninety"};
+  9 : "ninety"
+};
 
 var scales = {
   1 : "thousand",
@@ -36,34 +38,11 @@ var scales = {
   3 : "billion",
   4 : "trillion",
   5 : "quadrillion",
-  6 : "quintillion",
-  7 : "sextillion"};
+  6 : "quintillion"
+};
 
 var answer = [];
 var i = 1;
-
-// function numberToWords(number) {
-//   if (number === 0 && answer.length === 0) {
-//     answer.push("zero");
-//   } else if (number === 0) {
-//     // Ignores the zero if it is not the corner case (just "zero" by itself)
-//   } else if (number < 20) {
-//     answer.push(digits[number]);
-//   } else if (number < 100) {
-//     numberToWords(number % 10);
-//     answer.push(tens[parseInt(number/10)]);
-//   } else if (number < 1000) {
-//     numberToWords(number % 100);
-//     answer.push(digits[parseInt(number/100)] + " hundred");
-//   } else {
-//     numberToWords(number % 1000);
-//     answer.push(scales[i]);
-//     i++;
-//     numberToWords(parseInt(number/1000));
-//   }
-// }
-
-// ------------------- PRE - REFACTORING
 
 function lessTwenty(number) {
   if (number !== 0) {
@@ -110,7 +89,7 @@ $(function() {
     var number = parseInt($("input#number").val());
     if (number.toString().length > 21 || !$.isNumeric(number)) {
       $("div#result").hide().empty().fadeIn(500);
-      $("div#result").append("<b>COMPUTER:</b> That number exceeds my capacity.");
+      $("div#result").append("<b>AI:</b> Some things in this world were not meant to be...");
     } else {      
       numberToWords(number);
       $("div#result").hide().empty().fadeIn(500);
