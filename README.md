@@ -8,7 +8,7 @@ All projects collectively share the same bootstrap framework files.
 
 |project name  |Description|
 |--------------|-----------|
-|[Hangman](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/hangman)       |A classic with an API to conjure up impossible words! You only get 3 tries...|
+|[Hangman](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/hangman)       |A classic with an API to conjure up impossible words! You only get 6 tries...|
 |[Tic-Tac-Toe](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/tic-tac-toe)   |An old favorite 2 player version.|
 
 ######API Javascript
