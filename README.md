@@ -1,6 +1,6 @@
 Javascript Portfolio
 ====================
-A selection of Javascript/jQuery and HTML/CSS works developed during my time at Epicodus. There are for more projects than we were able to fully finish, starting a new project almost daily. Pair-Programming & Test Driven Development are the foundational basis of each project.
+A selection of Javascript/jQuery and HTML/CSS works developed during my time at Epicodus. There are far more projects than we were able to fully finish, starting a new project almost daily. Pair-Programming & Test Driven Development are the foundational basis of each project.
 
 All projects collectively share the same bootstrap framework files.
 
