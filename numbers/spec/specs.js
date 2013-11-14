@@ -1,3 +1,18 @@
+describe('isValid', function() {
+  it("checks that the input is a number", function() {
+    isValid("dog").should.equal(false);
+  });
+
+  it("checks that the number is less than 21", function() {
+    isValid(1234567890123456789012).should.equal(false);
+  });
+
+  it("checks that the number is valid for conversion", function() {
+    isValid(1234567890).should.equal(true);
+  });
+});
+
+
 describe('lessTwenty', function() {
  it("returns in words any number less than 20", function () {
     lessTwenty(17);
@@ -33,16 +48,24 @@ describe('lessThousand', function() {
 });
 
 describe('numberToWords', function() {
-  it("returns in words any whole multiple of 1,000 to 1 septillion", function() {
-    numberToWords(3000);
-    answer.reverse().join(" ").should.equal("three thousand");
+  it("returns in words any whole multiple of 1,000 to 1 quintillion", function() {
+    numberToWords(3000300);
+    answer.reverse().join(" ").should.equal("three million three hundred");
     answer = [];
-    i = 1;
+    i = 0;
   });
-  it("returns in words any number up to 1 septillion", function() {
-    numberToWords(123456);
-    answer.reverse().join(" ").should.equal("one hundred twenty-three thousand four hundred fifty-six");
-    answer = [];
-    i = 1;
-  });
+
+  // it("returns in words any whole multiple of 1,000 to 1 quintillion", function() {
+  //   numberToWords(3000000);
+  //   answer.reverse().join(" ").should.equal("three million");
+  //   answer = [];
+  //   i = 0;
+  //  });
+
+  // it("returns in words any number up to, but not inluding 1 sextillion", function() {
+  //   numberToWords(999000000000000001111);
+  //   answer.reverse().join(" ").should.equal("nine hundred ninety-nine quintillion one thousand one hundred eleven");
+  //   answer = [];
+  //   i = 1;
+  // });
 });

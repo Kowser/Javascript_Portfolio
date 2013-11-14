@@ -1,5 +1,5 @@
 function isLeapYear(year) {
-  if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
+  if (year % 400 === 0 || year % 4 === 0 && year % 100 !== 0) {
     return true;
   } else {
     return false;
@@ -21,7 +21,7 @@ $(function() {
 
     if (isPositiveInteger(year) && isLeapYear(year)) {
       $("div#leapyear-results").append('<img src="img/success.jpeg"><span> The year <strong>' + year + '</strong> is a leap year!</span>');
-    } else if (isPositiveInteger(year) !== true) {
+    } else if (!isPositiveInteger(year)) {
       $("div#leapyear-results").append('<span>ERROR! Try Again.</span>');
     } else {
       $("div#leapyear-results").append('<img src="img/fail.jpeg"><span> The year <strong>' + year + '</strong> is <u>NOT</u> a leap year!</span>');

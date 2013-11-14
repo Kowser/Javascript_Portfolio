@@ -42,7 +42,15 @@ var scales = {
 };
 
 var answer = [];
-var i = 1;
+var i = 0
+
+function isValid(number) {
+  if ($.isNumeric(number) & number.toString().length <= 21) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 function lessTwenty(number) {
   if (number !== 0) {
@@ -72,12 +80,14 @@ function lessThousand(number) {
 }
 
 function numberToWords(number) {
+  i++
   if (number < 1000) {
     lessThousand(number);
+  } else if (number % 1000 === 0) {
+    numberToWords(parseInt(number/1000));
   } else {
     lessThousand(number % 1000);
     answer.push(scales[i]);
-    i++;
     numberToWords(parseInt(number/1000));
   }
 }
@@ -87,13 +97,13 @@ $(function() {
     answer = [];
     i = 1;
     var number = parseInt($("input#number").val());
-    if (number.toString().length > 21 || !$.isNumeric(number)) {
-      $("div#result").hide().empty().fadeIn(500);
-      $("div#result").append("<b>AI:</b> Some things in this world were not meant to be...");
-    } else {      
+
+    $("div#result").hide().empty().fadeIn(500);
+    if (isValid) {
       numberToWords(number);
-      $("div#result").hide().empty().fadeIn(500);
       $("div#result").append(answer.reverse().join(" "));
+    } else {      
+      $("div#result").append("<b>AI:</b> Some things in this world were not meant to be...");
     }
     $("input#number").val('');
     return false;
