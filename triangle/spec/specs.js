@@ -1,19 +1,23 @@
 describe("TRIANGLE", function() {
   describe("inSpector", function() {
-    it("is invalid if a triangle is invalid", function() {
-      inSpector(1,2,3).should.equal("invalid");
+    it("returns 'invalid' if a triangle is invalid", function() {
+      inSpector(1,2,3).should.equal('invalid');
     });
 
-    it("is equilateral if a triangle is equilateral", function() {
-      inSpector(4,4,4).should.equal("equilateral");
+    it("return 'equilateral' if a triangle is equilateral", function() {
+      inSpector(4,4,4).should.equal('equilateral');
     });
 
-    it("is true if a triangle is isosceles", function() {
-      inSpector(4,4,7).should.equal("isosceles");
+    it("returns 'isosceles' if a triangle is isosceles", function() {
+      inSpector(4,4,7).should.equal('isosceles');
     });
 
-    it("is scalene if a triangle is scalene", function() {
-      inSpector(4,2,3).should.equal("scalene");
+    it("returns 'a right trianle' if a triangle is a right triangle", function() {
+      inSpector(5,4,3).should.equal('a right triangle');
+    });
+
+    it("returns 'scalene' if a triangle is scalene", function() {
+      inSpector(4,2,3).should.equal('scalene');
     });
   });
 });
