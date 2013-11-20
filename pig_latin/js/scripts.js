@@ -12,7 +12,6 @@ function pigLatin(word) {
   return word + "ay"
 }
 
-
 function translate(phrase) {
   var phrase = phrase.split(/([\s-_])/).map(function(word) {
     return pigLatin(word);
