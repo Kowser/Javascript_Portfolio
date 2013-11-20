@@ -11,29 +11,32 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   <!-- COMMON HEAD -->
-    <title>Look up your legislators</title>
+    <title>LegiSearch - Legislator Search</title>
   </head>
   <body>
-    <h1>Look up your legislators</h1>
-    <div class="background">
-      <div class="boxxy">
-        <form id="get-locale">
-          <label for="locale">Enter Zip Code</label>
-          <input id="locale" type="text" placeholder="Enter location">
-          <button type="submit">Search</button>
+    <div class="container">
+      <h1 class='text-center'>LegiSearch</h1>
+      <h4 class='text-center'>(Look up your legislators)</h4>
+      <div class='search'>
+        <form class='form-search' id="get-locale">
+          <div class="input-append">
+            <label for="locale">Enter Zip Code</label><br>
+            <input class="input-small search-query" id="locale" type="text" placeholder="Enter location">
+            <button class='btn' type="submit">Search</button>
+          </div>
         </form>
-        <form id="get-hearing">
-          <label for="hearing">Enter your hearing keyword</label>
-          <input id="hearing" type="text" placeholder="Keyword">
-          <button type="submit">Search</button>
+        <form class='form-search' id="get-hearing">
+          <div class="input-append">
+            <label for="hearing">Enter a hearing keyword</label><br>
+            <input class="input-medium search-query" id="hearing" type="text" placeholder="Keyword">
+            <button class='btn' type="submit">Search</button>
+          </div>
         </form>
-        <ul id="legislators">
-        </ul>
-        <ul id="hearings">
-        </ul>
-        <ul id="address">
-        </ul>
-      <div>
-    </div>
+      </div>
+      <div id="legislators">
+      </div>
+      <ul id="hearings">
+      </ul>
+    <div>
   </body>
 </html>
