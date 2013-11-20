@@ -3,7 +3,7 @@ describe('isValid', function() {
     isValid("dog").should.equal(false);
   });
 
-  it("checks that the number is less than 21", function() {
+  it("checks that the number is less than 21 digits", function() {
     isValid(1234567890123456789012).should.equal(false);
   });
 
@@ -11,7 +11,6 @@ describe('isValid', function() {
     isValid(1234567890).should.equal(true);
   });
 });
-
 
 describe('lessTwenty', function() {
  it("returns in words any number less than 20", function () {
@@ -47,25 +46,28 @@ describe('lessThousand', function() {
   });
 });
 
+describe('pushScales', function() {
+  it("adds the appropriate scales after 1 or more sets of '000'", function () {
+    i = 4;
+    pushScales();
+    answer.join(" ").should.equal("trillion");
+    answer = [];
+    i = 0;
+  });
+});
+
 describe('numberToWords', function() {
-  it("returns in words any whole multiple of 1,000 to 1 quintillion", function() {
-    numberToWords(3000300);
-    answer.reverse().join(" ").should.equal("three million three hundred");
+  it("returns in words any whole multiple of 1,000", function() {
+    numberToWords(3003000);
+    answer.reverse().join(" ").should.equal("three million three thousand");
     answer = [];
     i = 0;
   });
 
-  // it("returns in words any whole multiple of 1,000 to 1 quintillion", function() {
-  //   numberToWords(3000000);
-  //   answer.reverse().join(" ").should.equal("three million");
-  //   answer = [];
-  //   i = 0;
-  //  });
-
-  // it("returns in words any number up to, but not inluding 1 sextillion", function() {
-  //   numberToWords(999000000000000001111);
-  //   answer.reverse().join(" ").should.equal("nine hundred ninety-nine quintillion one thousand one hundred eleven");
-  //   answer = [];
-  //   i = 1;
-  // });
+  it("returns in words a complex number", function() {
+    numberToWords(300130003111);
+    answer.reverse().join(" ").should.equal("three hundred billion one hundred thirty million three thousand one hundred eleven");
+    answer = [];
+    i = 0;
+   });
 });

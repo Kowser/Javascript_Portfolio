@@ -38,11 +38,13 @@ var scales = {
   3 : "billion",
   4 : "trillion",
   5 : "quadrillion",
-  6 : "quintillion"
+  6 : "quintillion",
+  7 : "sextillion"
 };
 
 var answer = [];
 var i = 0
+var addScales = false
 
 function isValid(number) {
   if ($.isNumeric(number) & number.toString().length <= 21) {
@@ -79,15 +81,24 @@ function lessThousand(number) {
   }
 }
 
+function pushScales() {
+  answer.push(scales[i]);
+  addScales = false;
+}
+
 function numberToWords(number) {
-  i++
   if (number < 1000) {
+    if (addScales === true) { pushScales(); }
     lessThousand(number);
   } else if (number % 1000 === 0) {
+    addScales = true
+    i++
     numberToWords(parseInt(number/1000));
   } else {
+    if (addScales === true) { pushScales(); }
     lessThousand(number % 1000);
-    answer.push(scales[i]);
+    addScales = true
+    i++
     numberToWords(parseInt(number/1000));
   }
 }
@@ -103,7 +114,7 @@ $(function() {
       numberToWords(number);
       $("div#result").append(answer.reverse().join(" "));
     } else {      
-      $("div#result").append("<b>AI:</b> Some things in this world were not meant to be...");
+      $("div#result").append("<b>AI:</b> Surely such a number can never be...");
     }
     $("input#number").val('');
     return false;
