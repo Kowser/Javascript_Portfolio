@@ -1,22 +1,23 @@
 function pigLatin(word) {
-  var vowels = ["a","e","i","o","u"];
-  while ($.inArray(word[0], vowels) === -1) {
-    if (word.slice(0,2) === "qu") {
-      word = word.slice(2) + "qu";
-      break;
-    } else {
-      word = word.slice(1) + word[0];
-      vowels.push("y");
-    }
+  if (word.match(/-/)) {
+    var word = word.split('-').map(function(word) {
+      return pigLatin(word);
+    });
+    return word.join('-');
+  } else if (word.match(/^[aeiou]/i)) {
+    return word + 'way';
+  } else if (word.match(/^[(qu)]/i)) {
+    return word.slice(2) + 'quay';
+  } else {
+    return word.replace(/^[^aeiouy]+/i,'') + word.match(/^[^aeiouy]+/i) + 'ay';
   }
-  return word + "ay"
 }
 
 function translate(phrase) {
-  var phrase = phrase.split(/([\s-_])/).map(function(word) {
+  var phrase = phrase.split(' ').map(function(word) {
     return pigLatin(word);
   });
-  return phrase.join("");
+  return phrase.join(' ');
 }
 
 $(function() {

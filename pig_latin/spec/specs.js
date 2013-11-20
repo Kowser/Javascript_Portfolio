@@ -1,7 +1,7 @@
 describe("Pig Latin", function() {
   describe("pigLatin", function() {
     it("translates a word starting with a vowel", function() {
-      pigLatin("apple").should.equal("appleay");
+      pigLatin("apple").should.equal("appleway");
     });
 
     it("translates a word starting with a qu", function() {
@@ -12,13 +12,13 @@ describe("Pig Latin", function() {
       pigLatin("schedule").should.equal("eduleschay");
     });
 
-    it("ignores any non alpha numberic characters", function() {
-      pigLatin("-").should.equal("-");
+    it("treats hyphenated words as two separate words", function() {
+      pigLatin("one-way").should.equal("oneway-ayway");
     });
   });
 
   describe("translate", function() {
-    it("translates an entire phrase into pig latin", function (){
+    it("translates an complex multi-word phrase into pig latin", function (){
         phrase = "$ixty-six dollars poorer";
         translate(phrase).should.equal("ixty$ay-ixsay ollarsday oorerpay");
     });
