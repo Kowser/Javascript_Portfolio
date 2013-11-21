@@ -15,8 +15,7 @@ All projects collectively share the same bootstrap framework files.
 
 |project name  |Description|
 |--------------|-----------|
-|Spotify       |WIP* Using the spotify API to search albums, create informative results and even play a sample.|
-|[LegiSearch](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/legisearch)    |WIP* Using the Google Maps & Sunlight foundation to obtain legislator and hearing information|
+|[LegiSearch](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/legisearch)    |Using the Google Maps & Sunlight foundation to obtain legislator and hearing information|
 
 ######Basic Javascript
 
