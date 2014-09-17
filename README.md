@@ -4,6 +4,8 @@ A selection of Javascript/jQuery and HTML/CSS works developed during my time at 
 
 All projects collectively share the same bootstrap framework files.
 
+####Notice: Google Drive no longer appears to support web-hosting, thus these links no longer work.
+
 ######Object-Oriented Javascript
 
 |project name  |Description|
