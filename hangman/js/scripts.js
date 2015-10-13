@@ -80,8 +80,8 @@ $(function() {
       "</div>" + 
       "<p class='text-center'>Building word&hellip;</p>");
     $.get("http://api.wordnik.com/v4/words.json/randomWord?hasDictionaryDef=true&includePartOfSpeech=noun&minCorpusCount=0&maxCorpusCount=-1&minDictionaryCount=2&maxDictionaryCount=-1&minLength=7&maxLength=13&api_key=4b252ec9e95c73764310606cd1003aaa24e8c86557b1de9d2", function(responseText) {
-      // game.setWord("cat"); // TESTING LINE, unhide for test purposes
-      game.setWord(responseText.word.toLowerCase()); // hide during test purposes
+      game.setWord("randomization"); // TESTING LINE, unhide for test purposes
+      // game.setWord(responseText.word.toLowerCase()); // hide during test purposes
       setTimeout(function() {
         $("div.modal-body").children("p").empty().append("Setting word&hellip;");
         $("div.progress").empty().append("<div class='bar bar-danger' style='width: 60%;'></div>");
