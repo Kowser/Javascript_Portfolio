@@ -4,18 +4,15 @@ A selection of Javascript/jQuery and HTML/CSS works developed during my time at 
 
 All projects collectively share the same bootstrap framework files.
 
+![alt text](https://github.com/Kowser/Javascript_Portfolio/blob/master/screenshots.gif "JavaScript screenshots")
+
 ######Object-Oriented Javascript
 
 |project name  |Description|
 |--------------|-----------|
-|[Hangman](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/hangman)       |A classic with an API to conjure up impossible words! You only get 6 tries...|
+|[Hangman](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/hangman)       |A classic with an API to conjure up impossible words! You only get 6 tries... API is currently disabled to outdated API key with host.|
 |[Tic-Tac-Toe](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/tic-tac-toe)   |An old favorite 2 player version.|
-
-######API Javascript
-
-|project name  |Description|
-|--------------|-----------|
-|[LegiSearch](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/legisearch)    |Using the Google Maps & Sunlight foundation to obtain legislator and hearing information|
+|[LegiSearch](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/legisearch)    |Using Google Maps & the Sunlight foundation APIs to obtain legislator and hearing information|
 
 ######Basic Javascript
 
