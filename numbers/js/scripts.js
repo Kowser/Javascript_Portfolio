@@ -106,7 +106,7 @@ function numberToWords(number) {
 $(function() {
   $("form#number").submit(function() {
     answer = [];
-    i = 1;
+    i = 0;
     var number = parseInt($("input#number").val());
 
     $("div#result").hide().empty().fadeIn(500);
