@@ -10,18 +10,18 @@ All projects collectively share the same bootstrap framework files.
 
 |project name  |Description|
 |--------------|-----------|
-|[Hangman](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/hangman)       |A classic with an API to conjure up impossible words! You only get 6 tries... API is currently disabled to outdated API key with host.|
-|[Tic-Tac-Toe](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/tic-tac-toe)   |An old favorite 2 player version.|
-|[LegiSearch](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/legisearch)    |Using Google Maps & the Sunlight foundation APIs to obtain legislator and hearing information|
+|[Hangman](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/hangman)       |A classic with an API to conjure up impossible words! You only get 6 tries... API is currently disabled to outdated API key with host.|
+|[Tic-Tac-Toe](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/tic-tac-toe)   |An old favorite 2 player version.|
+|[LegiSearch](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/legisearch)    |Using Google Maps & the Sunlight foundation APIs to obtain legislator and hearing information|
 
 ######Basic Javascript
 
 |project name  |Description|
 |--------------|-----------|
-|[Factorial](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/factorial/)     |A quick tool to factor any number up to 170.|
-|[Fibonacci](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/fibonacci/)     |Provides the (n)th value in the fibonacci sequence.|
-|[Leap Year](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/leap_year)     |Identifies if a year meets the leap year requirements.|
-|[Numbers to Words](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/numbers)        |Converts a number up to 21 integers long into its written form.|
-|[Pig Latin](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/pig_latin)     |anslatesTray asesphray intoay igpay atinlay (Translates phrases into pig latin).|
-|[Title Case](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/title_case)    |Convert sentences in any case into proper title case, ignoring standard words ('a', 'and', 'to', etc..)|
-|[Triangle](https://www.googledrive.com/host/0B--OefA61JUBRG94Z01GbWVDUHc/triangle)      |Identifies a triange as scalene, isosceles or equilateral given 3 sides. Will also recognize an impossible triangle.|
+|[Factorial](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/factorial/)     |A quick tool to factor any number up to 170.|
+|[Fibonacci](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/fibonacci/)     |Provides the (n)th value in the fibonacci sequence.|
+|[Leap Year](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/leap_year)     |Identifies if a year meets the leap year requirements.|
+|[Numbers to Words](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/numbers)        |Converts a number up to 21 integers long into its written form.|
+|[Pig Latin](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/pig_latin)     |anslatesTray asesphray intoay igpay atinlay (Translates phrases into pig latin).|
+|[Title Case](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/title_case)    |Convert sentences in any case into proper title case, ignoring standard words ('a', 'and', 'to', etc..)|
+|[Triangle](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/triangle)      |Identifies a triange as scalene, isosceles or equilateral given 3 sides. Will also recognize an impossible triangle.|
