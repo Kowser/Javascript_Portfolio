@@ -10,8 +10,8 @@ All projects collectively share the same bootstrap framework files.
 
 |project name  |Description|
 |--------------|-----------|
-|[Hangman](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/hangman)       |A classic with an API to conjure up impossible words! You only get 6 tries... API is currently disabled to outdated API key with host.|
-|[Tic-Tac-Toe](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/tic-tac-toe)   |An old favorite 2 player version.|
+|[Hangman](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/hangman)       |A classic with an API to conjure up impossible words! You only get 6 tries... API is currently disabled due to outdated API key with host.|
+|[Tic-Tac-Toe](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/tic-tac-toe)   |An old classic 2 player version.|
 |[LegiSearch](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/legisearch)    |Using Google Maps & the Sunlight foundation APIs to obtain legislator and hearing information|
 
 ######Basic Javascript
