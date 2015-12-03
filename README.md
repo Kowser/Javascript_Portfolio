@@ -4,7 +4,7 @@ A selection of Javascript/jQuery and HTML/CSS works developed during my time at 
 
 All projects collectively share the same bootstrap framework files.
 
-![alt text](https://github.com/Kowser/Javascript_Portfolio/blob/master/screenshots.gif "JavaScript screenshots")
+![alt text](https://github.com/Kowser/Javascript_Portfolio/blob/master/screenshots.png "JavaScript screenshots")
 
 ######Object-Oriented Javascript
 
