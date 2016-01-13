@@ -1,12 +1,15 @@
-Javascript Portfolio
-====================
+<img align='left' src='https://github.com/Kowser/JavaScript_Portfolio/blob/master/js.png' width='175px'>
+<img align='right' src='https://github.com/Kowser/JavaScript_Portfolio/blob/master/js.png' width='175px'>
+<h1 align='center'>JavaScript Portfolio</h1>
+<br>
+<br>
 A selection of Javascript/jQuery and HTML/CSS works developed during my time at Epicodus. There are far more projects than we were able to fully finish, starting a new project almost daily. Pair-Programming & Test Driven Development are the foundational basis of each project.
 
 All projects collectively share the same bootstrap framework files.
 
 ![alt text](https://github.com/Kowser/Javascript_Portfolio/blob/master/screenshots.png "JavaScript screenshots")
 
-######Object-Oriented Javascript
+###Object-Oriented Javascript
 
 |project name  |Description|
 |--------------|-----------|
@@ -14,7 +17,7 @@ All projects collectively share the same bootstrap framework files.
 |[Tic-Tac-Toe](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/tic-tac-toe)   |An old classic 2 player version.|
 |[LegiSearch](http://www.googledrive.com/host/0B--OefA61JUBVTE1T1B2Sk9jOGM/legisearch)    |Using Google Maps & the Sunlight foundation APIs to obtain legislator and hearing information|
 
-######Basic Javascript
+###Basic Javascript
 
 |project name  |Description|
 |--------------|-----------|
