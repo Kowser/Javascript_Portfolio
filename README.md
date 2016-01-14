@@ -1,5 +1,5 @@
-<img align='left' src='https://github.com/Kowser/JavaScript_Portfolio/blob/master/js.png' width='175px'>
-<img align='right' src='https://github.com/Kowser/JavaScript_Portfolio/blob/master/js.png' width='175px'>
+<img align='left' src='https://github.com/Kowser/JavaScript_Portfolio/blob/master/js.png' width='170px'>
+<img align='right' src='https://github.com/Kowser/JavaScript_Portfolio/blob/master/js.png' width='170px'>
 <br>
 <br>
 <br>
