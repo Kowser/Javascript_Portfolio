@@ -75,9 +75,9 @@ $(function() {
     game.initialize(2);
     $("tbody#board").empty();
     game.board.forEach(function(row, rowNum) {
-      $("tbody#board").append("<tr></tr>");
+      $("tbody#board").append("<tr id='row'></tr>");
       row.forEach(function(square, colNum) {
-        $("tr").last().append("<td class='square'></td>");
+        $("tr#row").last().append("<td class='square'></td>");
         $("td").last().click(function() {
           if (game.isEmptySquare(rowNum, colNum)) {
             game.markSquare(rowNum, colNum);
@@ -111,6 +111,7 @@ $(function() {
       });
     });
   }
+
   $("button#ok").click(function() {
     $("#game-modal").modal("hide");
   });
