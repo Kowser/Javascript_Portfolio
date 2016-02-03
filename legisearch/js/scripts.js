@@ -20,7 +20,7 @@ $(function() {
 
     $("div#legislators").empty();
     // obtain lat & long from Google to send to sunlight API, more accurate than Sunlight Zip Code search
-    $.get("http://maps.googleapis.com/maps/api/geocode/json?address=" + locale + "&sensor=false", function(responseText) {
+    $.get("https://maps.googleapis.com/maps/api/geocode/json?address=" + locale + "&sensor=false", function(responseText) {
       responseText.results.forEach(function(object) {
         lat.push(object.geometry.location.lat);
         lng.push(object.geometry.location.lng);
@@ -37,7 +37,7 @@ $(function() {
         "</tbody></table>");
 
       for (var i = 0; i < lat.length; i++) {
-        $.get("http://congress.api.sunlightfoundation.com/legislators/locate?apikey=ba4d76d2f7ab45a5a08a28f3b7b42a94&latitude=" + lat[i] + "&longitude=" + lng[i], function(responseText) {          
+        $.get("https://congress.api.sunlightfoundation.com/legislators/locate?apikey=ba4d76d2f7ab45a5a08a28f3b7b42a94&latitude=" + lat[i] + "&longitude=" + lng[i], function(responseText) {          
           responseText.results.forEach(function(legislator) {
             $("div#legislators").children('table').children('tbody').append(
               "<tr class='expandable'>" +
@@ -81,12 +81,11 @@ $(function() {
     $("input#hearing").val('');
     $("ul#hearings").empty();
 
-    $.get("http://congress.api.sunlightfoundation.com/hearings?apikey=ba4d76d2f7ab45a5a08a28f3b7b42a94&query=" + searchTerm).done(function(responseText) {
+    $.get("https://congress.api.sunlightfoundation.com/hearings?apikey=ba4d76d2f7ab45a5a08a28f3b7b42a94&query=" + searchTerm).done(function(responseText) {
       responseText.results.forEach(function(hearing) {
 
-        $.get("http://congress.api.sunlightfoundation.com/committees?apikey=ba4d76d2f7ab45a5a08a28f3b7b42a94&committee_id=HSHM").done(function(responseText) {
+        $.get("https://congress.api.sunlightfoundation.com/committees?apikey=ba4d76d2f7ab45a5a08a28f3b7b42a94&committee_id=HSHM").done(function(responseText) {
           responseText.results.forEach(function(committee) {
-            debugger;
             $("ul#hearings").append(
               "<hr>" +
               "<strong>" + hearing.description + "</strong>" +
