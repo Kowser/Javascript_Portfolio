@@ -78,7 +78,7 @@ $(function() {
       $("tbody#board").append("<tr id='row'></tr>");
       row.forEach(function(square, colNum) {
         $("tr#row").last().append("<td class='square'></td>");
-        $("td").last().click(function() {
+        $("td.square").last().click(function() {
           if (game.isEmptySquare(rowNum, colNum)) {
             game.markSquare(rowNum, colNum);
             $(this).append(game.currentPlayer.mark);
